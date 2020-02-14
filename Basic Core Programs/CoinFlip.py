@@ -21,7 +21,7 @@ try:
         hPercent = (heads / flip) * 100
         tPercent = (tails / flip) * 100
 
-        print(f"Percentage of Heads vs Tails is: {hPercent} Heads, {tPercent} Tails")
+        print(f"Percentage of Heads vs Tails is: {round(hPercent)}% Heads, {round(tPercent)}% Tails")
     else:
         print("Invalid input!")
 except Exception:
