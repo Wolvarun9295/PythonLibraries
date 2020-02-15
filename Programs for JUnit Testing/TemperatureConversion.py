@@ -3,12 +3,12 @@ class TemperatureConvertor:
     # Function to convert Celsius to Fahrenheit.
     def celsiusToFahrenheit(self, temperature):
         fahrenheit = (temperature * (9 / 5)) + 32
-        print(f'{temperature} Celsius is {round(fahrenheit, 2)} Fahrenheit')
+        return fahrenheit
 
     # Function to convert Fahrenheit to Celsius.
     def fahrenheitToCelsius(self, temperature):
         celsius = (temperature - 32) * (5 / 9)
-        print(f'{temperature} Fahrenheit is {round(celsius, 2)} Celsius')
+        return celsius
 
 
 try:
@@ -28,8 +28,8 @@ try:
     while degree.upper() != "Q":
         degree = input('>')
         if degree.upper() == "C":
-            convert.celsiusToFahrenheit(temperature)
+            print(f'{temperature} Celsius is {round(convert.celsiusToFahrenheit(temperature), 2)} Fahrenheit')
         elif degree.upper() == "F":
-            convert.fahrenheitToCelsius(temperature)
+            print(f'{temperature} Fahrenheit is {round(convert.fahrenheitToCelsius(temperature), 2)} Celsius')
 except Exception:
     print('Invalid Input! Try Again!')
