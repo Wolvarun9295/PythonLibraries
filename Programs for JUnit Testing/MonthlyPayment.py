@@ -5,7 +5,7 @@ class MonthlyPay:
     def monthlyPayment(self, principal, rate, interestCompounded, timePeriod):
         # Calculating the Monthly Compound Interest.
         payment = principal * ((1 + (rate / interestCompounded)) ** (interestCompounded * timePeriod))
-        print(f'The monthly payment is: Rs.{round(payment, 2)}')
+        return payment
 
 
 try:
@@ -18,7 +18,9 @@ try:
     # Creating an object payment of class MonthlyPay.
     payment = MonthlyPay()
     # Calling the monthlyPayment function by using the object payment.
-    payment.monthlyPayment(principal, rate, interestCompounded, timePeriod)
+
+    print(
+        f'The monthly payment is: Rs.{round(payment.monthlyPayment(principal, rate, interestCompounded, timePeriod), 2)}')
 
 except:
     print('Invalid Input! Try Again!')
