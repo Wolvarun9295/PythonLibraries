@@ -13,7 +13,7 @@ class CouponGenerator:
             randomNumber = random.randrange(10000, 20000)
             if randomNumber not in uniqueCoupon:
                 uniqueCoupon.append(randomNumber)
-        print(f'The {numberOfValues} uniques coupon number are: {uniqueCoupon}')
+        return uniqueCoupon
 
 
 # Taking user input of the N number of coupons to be generated.
@@ -21,4 +21,4 @@ numberOfValues = int(input('Enter N coupon numbers to be generated: '))
 # Creating object generate of class CouponGenerator.
 generate = CouponGenerator()
 # Calling the randomCoupon function by passing the numberOfValues as parameter.
-generate.randomCoupon(numberOfValues)
+print(f'The {numberOfValues} uniques coupon number are: {generate.randomCoupon(numberOfValues)}')
