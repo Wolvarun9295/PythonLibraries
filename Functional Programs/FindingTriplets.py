@@ -8,7 +8,7 @@ def adder(numbers, size):
                     print('Triplets found!')
                 else:
                     print(f'{numbers[i]} + {numbers[j]} + {numbers[k]} != 0')
-                    print('No Triplets available!')
+                    return print('No Triplets available!')
 
 
 try:
