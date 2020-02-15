@@ -20,7 +20,7 @@ class DecimalToBinary:
 
         # The binary[] list stores the values as it gets, so we reverse the list to get the desired output.
         binary.reverse()
-        print(f'The Binary Equivalent of {decimal} is: {binary}')
+        return binary
 
 
 try:
@@ -29,6 +29,6 @@ try:
     # Creating an object convert of class DecimalToBinary.
     convert = DecimalToBinary()
     # Calling the function toBinary with by using object convert of class DecimalToBinary.
-    convert.toBinary(decimal)
+    print(f'The Binary Equivalent of {decimal} is: {convert.toBinary(decimal)}')
 except:
     print('Invalid Input! Try Again!')
