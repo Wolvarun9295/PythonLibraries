@@ -13,7 +13,7 @@ isStarted = False
 # The switch variable checks the Stopwatch was started or not.
 switch = False
 # Logic for Stopwatch.
-while state != "X":
+while state.upper() != "X":
     state = input('> ')
     if state.upper() == "S":
         if isStarted:
