@@ -1,0 +1,5 @@
+sampleTuple = (1, 2, 3, 4)
+print(f'Tuple: {sampleTuple}')
+convertToList = list(sampleTuple)
+convertToList.remove(2)
+print(f'After removing from Tuple: {tuple(convertToList)}')
