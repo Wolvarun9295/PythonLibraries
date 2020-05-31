@@ -1,0 +1,39 @@
+#chart1_ID{
+    width: 800px;
+    height: 250px;
+    margin: auto;
+}
+
+#chart2_ID{
+    width: 800px;
+    height: 500px;
+    margin: auto;
+}
+
+#chart4_ID{
+    width: 800px;
+    height: 350px;
+    margin: auto;
+
+}
+
+#chart5_ID{
+    width: 1000px;
+    height: 600px;
+    margin: auto;
+}
+
+.chart3{
+    display: inline;
+}
+
+#chart3_ID{
+    width: 50%;
+    float: left;
+    margin: auto;
+}
+
+#chart6_ID{
+    width: 50%;
+    margin: auto;
+}
