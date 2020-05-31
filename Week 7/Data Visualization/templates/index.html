@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Data Visualization
+    </title>
+    <link rel="stylesheet" type="text/css" href="/static/css/index.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="http://code.highcharts.com/highcharts.js"></script>
+    <script src="http://code.highcharts.com/highcharts-more.js"></script>
+    <!-- <script src="https://code.highcharts.com/modules/exporting.js"></script> -->
+    <script src="/static/js/index.js"></script>
+</head>
+
+<body>
+    <div id={{ chart1ID|safe }} class="chart1"></div>
+    <script>
+        var chart1_id = {{ chart1ID| safe }}
+        var series1 = {{ series1| safe }}
+        var title1 = {{ title1| safe }}
+        var xAxis1 = {{ xAxis1| safe }}
+        var yAxis1 = {{ yAxis1| safe }}
+        var plotOptions1 = {{ plotOptions1| safe }}
+        var credits = {{ credits| safe }}
+        var tooltip1 = {{ tooltip1| safe }}
+        var chart1 = {{ chart1| safe }}
+    </script>
+
+    <br>
+    <br>
+    <br>
+
+    <div id={{ chart2ID|safe }} class="chart2"></div>
+    <script>
+        var chart2_id = {{ chart2ID| safe }}
+        var series2 = {{ series2| safe }}
+        var title2 = {{ title2| safe }}
+        var xAxis2 = {{ xAxis2| safe }}
+        var yAxis2 = {{ yAxis2| safe }}
+        var plotOptions2 = {{ plotOptions2| safe }}
+        var tooltip1 = {{ tooltip1| safe }}
+        var credits = {{ credits| safe }}
+        var chart2 = {{ chart2| safe }}
+    </script>
+
+    <br>
+    <br>
+    <br>
+
+    <div id={{ chart3ID|safe }} class="chart3"></div>
+    <script>
+        var chart3_id = {{ chart3ID| safe }}
+        var series3 = {{ series3| safe }}
+        var title3 = {{ title3| safe }}
+        var xAxis3 = {{ xAxis3| safe }}
+        var yAxis3 = {{ yAxis3| safe }}
+        var plotOptions3 = {{ plotOptions3| safe }}
+        var tooltip1 = {{ tooltip1| safe }}
+        var credits = {{ credits| safe }}
+        var pane3 = {{ pane3| safe }}
+        var chart3 = {{ chart3| safe }}
+    </script>
+
+    <div id={{ chart6ID|safe }} class="chart3"></div>
+    <script>
+        var chart6_id = {{ chart6ID| safe }}
+        var series6 = {{ series6| safe }}
+        var title6 = {{ title6| safe }}
+        var xAxis6 = {{ xAxis6| safe }}
+        var yAxis6 = {{ yAxis6| safe }}
+        var plotOptions6 = {{ plotOptions6| safe }}
+        var tooltip2 = {{ tooltip2| safe }}
+        var credits = {{ credits| safe }}
+        var chart6 = {{ chart6| safe }}
+        var pane6 = {{ pane6| safe }}
+    </script>
+
+    <br>
+    <br>
+    <br>
+
+    <div id={{ chart4ID|safe }} class="chart4"></div>
+    <script>
+        var chart4_id = {{ chart4ID| safe }}
+        var series4 = {{ series4| safe }}
+        var title4 = {{ title4| safe }}
+        var xAxis4 = {{ xAxis4| safe }}
+        var yAxis4 = {{ yAxis4| safe }}
+        var plotOptions4 = {{ plotOptions4| safe }}
+        var tooltip1 = {{ tooltip1| safe }}
+        var credits = {{ credits| safe }}
+        var chart4 = {{ chart4| safe }}
+    </script>
+
+    <br>
+    <br>
+    <br>
+
+    <div id={{ chart5ID|safe }} class="chart5"></div>
+    <script>
+        var chart5_id = {{ chart5ID| safe }}
+        var series5 = {{ series5| safe }}
+        var title5 = {{ title5| safe }}
+        var xAxis5 = {{ xAxis5| safe }}
+        var yAxis5 = {{ yAxis5| safe }}
+        var plotOptions5 = {{ plotOptions5| safe }}
+        var tooltip2 = {{ tooltip2| safe }}
+        var credits = {{ credits| safe }}
+        var chart5 = {{ chart5| safe }}
+    </script>
+</body>
+
+</html>
