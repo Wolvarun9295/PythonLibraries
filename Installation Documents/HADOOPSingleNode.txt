@@ -1,0 +1,3 @@
+#HADOOP SINGLE NODE SETUP
+
+https://docs.google.com/document/d/1ogM_FZyGfGuNUY7QZmXGc9AHwzGGjmi_eg0BYE4EzvU/edit
