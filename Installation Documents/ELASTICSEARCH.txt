@@ -1,0 +1,3 @@
+#Elasticsearch Installation
+
+https://docs.google.com/document/d/1PthAmBKgCIG75JN27O54_Ukv1Sx-LKnVuW_DlsxmE3I/edit
