@@ -1,3 +1,0 @@
-#SQOOP INSTALLATION
-
-https://docs.google.com/document/d/1pcnstCMBQkkU5fn10Aot4vBPI9KNZofNAdLPm2NrqCs/edit

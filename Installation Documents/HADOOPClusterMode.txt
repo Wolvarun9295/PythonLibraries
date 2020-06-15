@@ -1,3 +1,0 @@
-#HADOOP MULTI NODE CLUSTER INSTALLATION
-
-https://docs.google.com/document/d/1h2IBp5RP1i2TncrQIq65_zIprqznw7dcw9IySrnwO5Y/edit
