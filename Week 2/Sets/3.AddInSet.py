@@ -1,5 +1,0 @@
-animalSet = set()
-animalSet.add("Dog")
-print(animalSet)
-animalSet.update(["Cat", "Rabbit"])
-print(animalSet)
